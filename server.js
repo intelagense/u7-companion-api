@@ -6,63 +6,63 @@ const PORT = 8000
 app.use(cors())
 
 let companions = {
-    'Iolo': {
+    'iolo': {
         'class': 'Bard',
         'str': 18,
         'dex': 19,
         'int': 20,
         'com': 19 
     },
-    'Shamino': {
+    'shamino': {
         'class': 'Bard',
         'str': 18,
         'dex': 21,
         'int': 19,
         'com': 16 
     },
-    'Dupre': {
+    'dupre': {
         'class': 'Bard',
         'str': 21,
         'dex': 20,
         'int': 18,
         'com': 18 
     },
-    'Jaana': {
+    'jaana': {
         'class': 'Bard',
         'str': 13,
         'dex': 16,
         'int': 18,
         'com': 8 
     },
-    'Julia': {
+    'julia': {
         'class': 'Bard',
         'str': 12,
         'dex': 14,
         'int': 18,
         'com': 8 
     },
-    'Katrina': {
+    'katrina': {
         'class': 'Bard',
         'str': 11,
         'dex': 15,
         'int': 18,
         'com': 8 
     },
-    'Sentri': {
+    'sentri': {
         'class': 'Bard',
         'str': 18,
         'dex': 20,
         'int': 18,
         'com': 16 
     },
-    'Spark': {
+    'spark': {
         'class': 'Bard',
         'str': 14,
         'dex': 22,
         'int': 18,
         'com': 10 
     },
-    'Tseramed': {
+    'tseramed': {
         'class': 'Bard',
         'str': 16,
         'dex': 17,
@@ -82,7 +82,7 @@ app.get('/', (request, response) => {
     response.sendFile(__dirname + '/index.html')
 })
 
-app.get('/api/:name', (request, response) => {
+app.get('/:name', (request, response) => {
     const companionName = request.params.name.toLowerCase()
     if(companions[companionName]){
         response.json(companions[companionName])
