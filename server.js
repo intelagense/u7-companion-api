@@ -14,56 +14,56 @@ let companions = {
         'com': 19 
     },
     'shamino': {
-        'class': 'Bard',
+        'class': 'Ranger',
         'str': 18,
         'dex': 21,
         'int': 19,
         'com': 16 
     },
     'dupre': {
-        'class': 'Bard',
+        'class': 'Paladin',
         'str': 21,
         'dex': 20,
         'int': 18,
         'com': 18 
     },
     'jaana': {
-        'class': 'Bard',
+        'class': 'Druid',
         'str': 13,
         'dex': 16,
         'int': 18,
         'com': 8 
     },
     'julia': {
-        'class': 'Bard',
+        'class': 'Tinker',
         'str': 12,
         'dex': 14,
         'int': 18,
         'com': 8 
     },
     'katrina': {
-        'class': 'Bard',
+        'class': 'Shepherd',
         'str': 11,
         'dex': 15,
         'int': 18,
         'com': 8 
     },
     'sentri': {
-        'class': 'Bard',
+        'class': 'Fighter',
         'str': 18,
         'dex': 20,
         'int': 18,
         'com': 16 
     },
     'spark': {
-        'class': 'Bard',
+        'class': 'None',
         'str': 14,
         'dex': 22,
         'int': 18,
         'com': 10 
     },
     'tseramed': {
-        'class': 'Bard',
+        'class': 'Fighter',
         'str': 16,
         'dex': 17,
         'int': 18,
